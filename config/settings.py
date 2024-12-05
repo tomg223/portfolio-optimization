@@ -27,7 +27,6 @@ class Settings:
     CACHE_EXPIRY: int = 24 * 60 * 60  # 24 hours in seconds
     USE_CACHE: bool = True
     
-    @classmethod
     def get_all_settings(cls) -> Dict[str, Any]:
         """Return all settings as a dictionary"""
         return {k: v for k, v in cls.__dict__.items() 
