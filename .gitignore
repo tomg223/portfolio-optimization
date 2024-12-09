@@ -4,7 +4,21 @@ __pycache__/
 .DS_Store
 
 *.png
-*.pdf
 *.csv
 *.xlsx
 *.xls
+
+# latex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.gz
+*.bib
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.bcf
+*.run.xml
