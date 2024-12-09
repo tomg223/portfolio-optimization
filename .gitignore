@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+.DS_Store
+
+*.png
+*.csv
+*.xlsx
+*.xls
+
+# latex
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.gz
+*.bib
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.bcf
+*.run.xml
